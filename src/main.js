@@ -13,7 +13,7 @@ import App from './App.vue';
 import './styles/global.scss';
 
 Vue.use(VueResource);
-Vue.http.options.root = 'http://localhost:3000/v1';
+Vue.http.options.root = process.env.API_URL ? process.env.API_URL : 'http://localhost:3000/v1';
 
 Vue.use(VueRouter);
 const router = new VueRouter({
