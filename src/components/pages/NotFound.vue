@@ -14,7 +14,7 @@
 </script>
 
 <style lang="scss" scoped>
-  @import "../../vars.scss";
+  @import "../../styles/vars.scss";
 
   .not-found-container {
     display:         flex;

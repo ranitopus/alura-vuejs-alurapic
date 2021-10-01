@@ -41,7 +41,7 @@
 </script>
 
 <style lang="scss" scoped>
-  @import "../../vars.scss";
+  @import "../../styles/vars.scss";
 
   button {
     display:       inline-block;

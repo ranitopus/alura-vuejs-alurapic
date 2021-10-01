@@ -20,9 +20,8 @@ export default {
       zoomed              = false;
       el.style.transform  = 'scale(1)';
       if (binding.modifiers.animate) {
-        let timeoutRef = setTimeout(() => {
+        setTimeout(() => {
           el.style.zIndex = '1';
-          clearTimeout(timeoutRef);
         }, transitionTimeMS);
       }
       else {

@@ -10,7 +10,7 @@ import { routes } from './routes';
 import App from './App.vue';
 
 // import 'bootstrap/dist/css/bootstrap.css';
-import './global.scss';
+import './styles/global.scss';
 
 Vue.use(VueResource);
 Vue.http.options.root = 'http://localhost:3000/v1';

@@ -3,7 +3,7 @@
     <div class="generic-container">
       <nav>
         <ul>
-          <li v-for="route of routes">
+          <li :key="index" v-for="(route, index) of routes">
             <router-link :to="route.path">{{ route.name }}</router-link>
           </li>
         </ul>
@@ -23,7 +23,7 @@
 </script>
 
 <style lang="scss" scoped>
-  @import "../vars.scss";
+  @import "../styles/vars.scss";
 
   header {
     height:           $layout-navbar-height;

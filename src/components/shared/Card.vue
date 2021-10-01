@@ -23,7 +23,7 @@
 </script>
 
 <style lang="scss" scoped>
-  @import "../../vars.scss";
+  @import "../../styles/vars.scss";
 
   .card-container {
     padding:        0 auto;

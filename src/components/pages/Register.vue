@@ -104,7 +104,7 @@
 </script>
 
 <style lang="scss" scoped>
-  @import "../../vars.scss";
+  @import "../../styles/vars.scss";
 
   .register-container {
     .input-control {

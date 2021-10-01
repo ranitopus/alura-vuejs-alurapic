@@ -21,7 +21,7 @@
 </script>
 
 <style lang="scss" scoped>
-  @import "./vars.scss";
+  @import "styles/vars.scss";
 
   .app-container {
     height:             100vh;
